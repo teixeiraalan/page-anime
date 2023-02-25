@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: #2b2b2b;
+}
+
+.navegacao{
+    background-color: #201b37;
+    height: 150px;
+    margin-top: -1%;
+}
+
+ul{
+   display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    height: 200px;
+    background-color: #201b37;
+    margin-top: 80%;
+    color: white;
+}
+
+.lista01{
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 36%;
+}
+
+#txtBusca{
+    margin-left: 38.5%;
+    width: 350px;
+    height: 20px;
+    margin-top: 3%;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 2px solid transparent;
+}
+
+#btnBusca{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.corpo{
+    border: 2px solid transparent;
+    height: 250px;
+    width: 200px;
+    padding: 5px;
+    float: left;
+    margin: 1.5%;
+    background-color: #474747;
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 74%;
+}
+
+.corpo:hover{
+    border: 2px solid #ffffff;
+    transition: 0.3s all;
+}
+
+#conteudo{
+    position: relative;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.logotipo{
+    width: 10%;
+    margin-left: -50%;
+}
+
+#conta{
+    width: 2%;
+    position: absolute;
+    margin-left: 97%;
+    margin-top: -8%;
+    display: none;
+}
+
+.filtros{
+    background-color: #ffffff;
+    width: 100%;
+    height: 30px;
+    margin-top: -5%;
+    position: absolute;
+}
+
+#filtros-02{
+    margin-top: -0.5%;
+    margin-left: 35%;
+    position: absolute;
+}
+
+.nav-button{
+    margin-top: -7.5%;
+    position: absolute;
+    margin-left: 1%;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.icon-burguer{
+    width: 32px;
+}
+
+#txt-menu{
+    font-size: 20px;
+    margin-left: -105%;
+    display: flex;
+}
+
+.overlay{
+    width: 0;
+    height: 50%;
+    background-color: white;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 9;
+    transition: 0.5s all;
+    left: 0;
+    top: 0;
+    font-size: 50px;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+#a-z{
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 25%;
+}
+
+#porletra{
+    padding: 10px;
+    background-color: #201b37;
+}
+
+#lnc{
+    color: white;
+    margin-left: 42%;
+    margin-top: -1%;
+    position: absolute;
+    font-size: xx-large;
+}
