@@ -4,7 +4,7 @@ body{
 }
 
 .navegacao{
-    background-color: #201b37;
+    background-color: transparent;
     height: 150px;
     margin-top: -1%;
 }
@@ -30,14 +30,15 @@ a:hover{
 footer{
     height: 200px;
     background-color: #201b37;
-    margin-top: 120%;
+    margin-top: 180%;
     color: white;
 }
 
 .lista01{
-    margin-top: 5%;
+    margin-top: 6%;
+    font-size: 20px;
     position: absolute;
-    margin-left: 36%;
+    margin-left: 40%;
 }
 
 #txtBusca{
@@ -60,12 +61,12 @@ footer{
 
 .corpo{
     border: 2px solid transparent;
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 350px;
     padding: 5px;
     float: left;
     margin: 1.5%;
-    background-color: #474747;
+    background-color: #353535;
     color: #ffffff;
     font-size: 20px;
     opacity: 74%;
@@ -85,12 +86,12 @@ footer{
 
 .corpo-2{
     border: 2px solid transparent;
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 350px;
     padding: 5px;
     float: left;
     margin: 1.5%;
-    background-color: #474747;
+    background-color: #353535;
     color: #ffffff;
     font-size: 20px;
     opacity: 74%;
@@ -104,18 +105,18 @@ footer{
 #conteudo-2{
     position: relative;
     display: block;
-    margin-top:45%;
+    margin-top:55%;
     margin-left: 5%;
 }
 
 .corpo-3{
     border: 2px solid transparent;
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 350px;
     padding: 5px;
     float: left;
     margin: 1.5%;
-    background-color: #474747;
+    background-color: #353535;
     color: #ffffff;
     font-size: 20px;
     opacity: 74%;
@@ -129,7 +130,7 @@ footer{
 #conteudo-3{
     position: relative;
     display: block;
-    margin-top: 85%;
+    margin-top: 105%;
     margin-left: 5%;
 }
 
@@ -200,7 +201,7 @@ footer{
     color: white;
     display: flex;
     position: absolute;
-    margin-top: 7.5%;
+    margin-top: 7.8%;
     margin-left: 25%;
 }
 
@@ -221,4 +222,16 @@ footer{
     margin-left: 50%;
     margin-top: 9%;
     position: absolute;
+}
+
+#logotipo{
+    position: absolute;
+    width: 230px;
+    margin-top: 4.5%;
+    margin-left: -2%;
+}
+
+#fundo{
+    position: absolute;
+    opacity: 80%;
 }
