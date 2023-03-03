@@ -228,3 +228,88 @@ footer{
     margin-left: 4%;
     position: absolute;
 }
+
+#luffy-img{
+    width: 200px;
+    margin-top: 42.4%;
+    margin-left: 89.5%;
+}
+
+.btn-gradient {
+
+    width: auto;
+    font-size: 1em;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    background: #313131;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 25%;
+    text-decoration: none;
+
+}
+
+.btn-gradient::before {
+ 
+  position: absolute;
+  content: "";
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(124deg, #e72100, #f36161, #eec647, #dfe404, #35e854, #32dfe9, #4a3df1, #e549f5, #ae07bf );
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(3px);
+  animation: move 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.btn-gradient:hover::before { opacity: 1; }
+
+.btn-gradient::after {
+
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #242424;
+  left: 0;
+  top: 0;
+  border-radius: 50px;
+
+}
+
+@keyframes move {
+
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+
+}
+
+.txt-premium{
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-size: 40pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
